@@ -283,12 +283,17 @@
     padding: 13px 15px;
     min-width: 50px;
 }
+.nice-select.open .list .option:hover,
+.nice-select.open .list:not(:hover) .option.selected.focus {
+    background: var(--theme__color1) !important;
+}
 .nice-select .option.selected {
     font-weight: inherit;
 }
 .nice-select .list {
     border-radius: 2px;
     min-width: 100%;
+    background: #00001A;
 }
 
 @media (max-width: 767px) {

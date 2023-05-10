@@ -76,3 +76,36 @@ $(document).ready(function () {
   // preloader
   $("#preloader").fadeOut(500);
 });
+
+// isotope
+var $grid = $(".portfolio-items").isotope({
+  filter: ".portfolio-website",
+});
+// filter items on button click
+$(".portfolio-filter-ul").on("click", "li", function () {
+  var filterValue = $(this).attr("data-filter");
+  $grid.isotope({ filter: filterValue });
+});
+
+$(".portfolio-filter-ul").click(function () {
+  let thisIs = this;
+  $(".portfolio-filter-ul li").removeClass("active");
+});
+
+// Get the container element
+var btnContainer = document.getElementById("portfolio-filter-ul");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.querySelectorAll("#portfolio-filter-ul li");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function (event) {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace("active", "");
+    // target.className += " active";
+    setTimeout(function () {
+      event.target.classList.add("active");
+    }, 1);
+  });
+}
