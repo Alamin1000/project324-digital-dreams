@@ -313,7 +313,7 @@
 	right: 8px;
 }
 .mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-    background: var(--theme__color1);
+    background: var(--theme__color1) !important;
 }
 .mCS-3d.mCSB_scrollTools .mCSB_draggerRail {
     background: rgba(153, 36, 255, 0.11);
