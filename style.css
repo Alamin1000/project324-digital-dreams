@@ -659,11 +659,10 @@ p:last-child {
 }
 
 .package-card .card__body__top {
-  padding: 20px 40px;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	padding: 20px 40px;
+	flex-grow: 1;
+	max-height: 475px;
+	overflow: auto;
 }
 
 .chk-ul {
@@ -673,9 +672,13 @@ p:last-child {
   flex-direction: column;
 }
 
+.chk-ul li {
+  display: flex;
+  gap: 3px;
+}
 .chk-ul li::before {
   font-size: 15px;
-  margin: 1px 7px 0 0;
+  margin: 4px 7px 0 0;
   content: '\f00c';
   font-family: "Font Awesome 5 Pro";
 

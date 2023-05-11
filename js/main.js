@@ -109,3 +109,10 @@ for (var i = 0; i < btns.length; i++) {
     }, 1);
   });
 }
+
+$(".card__body__top").mCustomScrollbar({
+  axis: "yx",
+  scrollButtons: { enable: true },
+  theme: "3d",
+  scrollbarPosition: "outside",
+});

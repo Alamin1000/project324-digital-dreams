@@ -121,7 +121,7 @@
         font-size: 60px;
     }
     .package-card .card__head h3 .smt {
-        font-size: 23px;
+        font-size: 22px;
     }
     .package-card .card__head h3 .sm {
         font-size: 16px;
@@ -136,10 +136,11 @@
     }
     .package-card .card__body__top {
         padding: 15px 30px;
+        max-height: 353px;
     }
     .chk-ul li::before {
         font-size: 12px;
-        margin: 1px 6px 0 0;
+        margin: 3px 6px 0 0;
     }
     .package-card .card__body__bottom {
         margin: 0 30px;
