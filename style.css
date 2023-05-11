@@ -549,6 +549,7 @@ p:last-child {
   left: 50%;
   transform: translate(-50%, 0);
   opacity: 0;
+  transition: 0.3s;
 }
 
 .tab-nav.tab-nav--isotope ul li.active:after,
