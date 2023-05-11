@@ -119,6 +119,11 @@ p:last-child {
   overflow: hidden;
 }
 
+@media (max-width: 1799px) and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
 @media (min-width: 1800px) {
   .container {
     max-width: 1600px;
@@ -244,17 +249,16 @@ p:last-child {
   color: #97A3AE;
 }
 
-.offcanvas-close {
-  color: var(--theme__color1);
-  position: absolute;
-  transition: 0.3s;
-  right: 25px;
-  top: 25px;
+.close-offcanvas {
+	color: #fff;
+	position: absolute;
+	transition: 0.3s;
+	right: 23px;
+	top: 45px;
+	font-size: 20px;
+	line-height: 1;
 }
 
-.offcanvas-close:hover {
-  color: #97A3AE;
-}
 
 .offcanvas-menu {
   position: fixed;
@@ -272,13 +276,12 @@ p:last-child {
 }
 
 .offcanvas-menu .offmenu {
-  max-width: 250px;
-  min-width: 200px;
+  width: 100%;
   z-index: 5;
   position: relative;
-  background: #d5dce2;
+  background: #00001A;
   height: 100%;
-  padding: 50px 20px 40px;
+  padding: 20px 13px 30px;
   overflow: auto;
   -ms-overflow-style: none;
   /* IE and Edge */
@@ -290,21 +293,44 @@ p:last-child {
   display: none;
 }
 
-.offcanvas-menu ul li a {
-  display: block;
-  text-align: center;
-  font-size: 16px;
-  color: var(--theme__color1);
-  padding: 10px;
+.mobile-menu li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  padding: 21px 13px;
+  border-bottom: 1px solid var(--theme__color1);
+  transition: 0.3s;
+}
+.mobile-menu li a[data-bs-toggle]:not(.collapsed) {
+  background: var(--theme__color1);
+}
+.mobile-menu li a.active {
+  font-weight: 700;
+}
+.mobile-menu li:last-child a {
+  border-bottom: none;
+}
+.mobile-menu li a i {
+  font-size: 17px;
+}
+.mobile-menu li a:hover {
+  background: var(--theme__color1);
+  color: #fff;
 }
 
 .dropdown-menu-custom ul {
-  background: #fff;
-  padding: 20px 0;
+  background: var(--theme__color2);
+  padding: 0px 0;
 }
 
 .dropdown-menu-custom ul li a {
-  color: #97A3AE;
+  color: var(--theme__color3);
+  border-bottom-color: var(--theme__color3);
+  padding: 17px 25px;
+  font-size: 15px;
 }
 
 .offcanvas-overlay {
@@ -752,7 +778,7 @@ p:last-child {
 
 /* ---start-section--- */
 .start-section {
-  padding: 60px;
+  padding: 60px 0;
 }
 
 .start-section__inner {}
@@ -869,7 +895,7 @@ p:last-child {
 }
 
 .footer__top {
-  padding: 90px 82px;
+  padding: 90px 0 82px;
 }
 .footer-logo {
   width: 137px;

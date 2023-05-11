@@ -30,29 +30,37 @@
     <div class="main-wrap">
       <!-- offcanvas-start -->
       <div class="offcanvas-menu">
-        <ul class="offmenu" id="menuParent">
-          <a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li class="dropdown">
-            <a href="#" data-bs-toggle="collapse" data-bs-target="#drop-menu1"
-              >OUR HORSES</a
-            >
-            <div
-              class="dropdown-menu-custom collapse"
-              id="drop-menu1"
-              data-bs-parent="#menuParent"
-            >
-              <ul>
-                <li><a href="#">YEARLINGS</a></li>
-                <li><a href="#">2 YEAR OLDS</a></li>
-                <li><a href="#">3 YEAR OLD PLUS</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">LATEST NEWS</a></li>
-          <li><a href="#">CONTACT & FIND US</a></li>
-        </ul>
+        <div class="offmenu" id="menuParent">
+          <a href="#" class="close-offcanvas"><i class="fal fa-times"></i></a>
+          <ul class="mobile-menu">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+              <a
+                class="collapsed"
+                href="#"
+                data-bs-toggle="collapse"
+                data-bs-target="#drop-menu1"
+                >Services <i class="far fa-chevron-down"></i
+              ></a>
+              <div
+                class="dropdown-menu-custom collapse"
+                id="drop-menu1"
+                data-bs-parent="#menuParent"
+              >
+                <ul>
+                  <li><a href="development.html">Development</a></li>
+                  <li><a href="e-commerce.html">E-commerce</a></li>
+                  <li><a href="branding.html">Branding</a></li>
+                  <li><a href="nft.html">NFT</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
       </div>
       <div class="offcanvas-overlay"></div>
       <!-- offcanvas-start-end -->
@@ -66,7 +74,7 @@
                 <img src="images/logo.svg" alt="" />
               </a>
 
-              <div class="main-menu">
+              <div class="main-menu d-lg-block d-none">
                 <ul>
                   <li><a class="active" href="#">Home</a></li>
                   <li><a href="about-us.html">About</a></li>
@@ -93,6 +101,10 @@
                   <li><a href="contact-us.html">Contact Us</a></li>
                 </ul>
               </div>
+
+              <a href="#" class="offcanvas-open d-lg-none">
+                <i class="far fa-bars"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -109,9 +121,12 @@
                 <div class="col-lg-8">
                   <div class="hero-content">
                     <h4>Welcome to</h4>
-                    <h1 class="h1">Digital dreamers</h1>
+                    <h1 class="h1">
+                      Digital <br class="d-md-none" />
+                      dreamers
+                    </h1>
                     <h5>
-                      Where We turn your
+                      Where We turn your <br class="d-md-none" />
                       <span class="fw-bold">digital dreams</span> into
                       <span class="fw-bold">reality</span>
                     </h5>
@@ -135,7 +150,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 order-lg-0 order-first">
                   <div class="hero__image">
                     <img src="images/hero-image.svg" alt="" />
                   </div>
@@ -552,7 +567,7 @@
                   class="packages__tab-pane fade tab-pane show active"
                   id="packages-website"
                 >
-                  <div class="packages__row row">
+                  <div class="packages__row row gy-4">
                     <div class="col-lg-4 col-md-6">
                       <div class="package-card package-card--theme-2">
                         <div class="card__head">
@@ -653,7 +668,7 @@
                   class="packages__tab-pane fade tab-pane"
                   id="packages-ecommerce"
                 >
-                  <div class="packages__row row">
+                  <div class="packages__row row gy-4">
                     <div class="col-lg-4 col-md-6">
                       <div class="package-card package-card--theme-2">
                         <div class="card__head">
@@ -751,7 +766,7 @@
 
                 <!-- packages-tab-pane -->
                 <div class="packages__tab-pane fade tab-pane" id="packages-nft">
-                  <div class="packages__row row">
+                  <div class="packages__row row gy-4">
                     <div class="col-lg-4 col-md-6">
                       <div class="package-card package-card--theme-2">
                         <div class="card__head">
@@ -852,7 +867,7 @@
                   class="packages__tab-pane fade tab-pane"
                   id="packages-logo"
                 >
-                  <div class="packages__row row">
+                  <div class="packages__row row gy-4">
                     <div class="col-lg-4 col-md-6">
                       <div class="package-card package-card--theme-2">
                         <div class="card__head">
@@ -953,7 +968,7 @@
                   class="packages__tab-pane fade tab-pane"
                   id="packages-social-media"
                 >
-                  <div class="packages__row row">
+                  <div class="packages__row row gy-4">
                     <div class="col-lg-4 col-md-6">
                       <div class="package-card package-card--theme-2">
                         <div class="card__head">
@@ -1054,7 +1069,7 @@
                   class="packages__tab-pane fade tab-pane"
                   id="packages-mobile-apps"
                 >
-                  <div class="packages__row row">
+                  <div class="packages__row row gy-4">
                     <div class="col-lg-4 col-md-6">
                       <div class="package-card package-card--theme-2">
                         <div class="card__head">
@@ -1221,7 +1236,10 @@
               <div class="start__row row">
                 <div class="col-lg-8">
                   <div class="start__content cont-blk">
-                    <h2 class="h2">Let's Start a Project Now</h2>
+                    <h2 class="h2">
+                      Let's Start a <br class="d-md-none" />
+                      Project Now
+                    </h2>
                     <p>
                       Let's launch your business to new heights with a strategic
                       digital <br class="d-lg-block d-none" />
@@ -1232,7 +1250,7 @@
                     >
                   </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 order-lg-0 order-first">
                   <div class="start__image">
                     <img src="images/start-illustration.png" alt="" />
                   </div>
@@ -1252,9 +1270,7 @@
                   <div
                     class="project-section__title sec-title cont-blk cont-blk--center"
                   >
-                    <h2 class="h2 mb-xl-3 mb-2 text-uppercase">
-                      Wanna Start a Project ?
-                    </h2>
+                    <h2 class="h2 mb-xl-3 mb-2">Wanna Start a Project ?</h2>
                     <h3 class="h3 color-theme2 mb-0 text-uppercase">
                       Let’s get in Touch!
                     </h3>
@@ -1369,15 +1385,15 @@
       <footer class="footer-section">
         <div class="container">
           <div class="footer-section__inner">
-            <div class="footer__top row">
+            <div class="footer__top row gy-5">
               <div class="col-lg-2">
                 <a href="#" class="footer-logo">
                   <img src="images/logo-white.svg" alt="" />
                 </a>
               </div>
               <div class="col-lg-10">
-                <div class="row">
-                  <div class="col-md-3">
+                <div class="row gy-5">
+                  <div class="col-lg-3 col-md-6">
                     <div class="footer-menu">
                       <h4>Services</h4>
                       <ul>
@@ -1387,7 +1403,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-lg-3 col-md-6">
                     <div class="footer-menu">
                       <h4>More</h4>
                       <ul>
@@ -1397,7 +1413,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-lg-3 col-md-6">
                     <div class="footer-menu">
                       <h4>Contact</h4>
                       <ul>
@@ -1410,7 +1426,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-lg-3 col-md-6">
                     <div class="footer-menu">
                       <h4>Follow Us</h4>
                       <ul class="fs-menu">

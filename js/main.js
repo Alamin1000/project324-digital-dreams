@@ -6,7 +6,7 @@
     $(".offcanvas-menu").addClass("active");
     $(".offcanvas-overlay").addClass("active");
   });
-  $(".offcanvas-menu a").click(function () {
+  $(".offcanvas-menu li:not(.dropdown) a").click(function () {
     $(".offcanvas-menu").removeClass("active");
     $(".offcanvas-overlay").removeClass("active");
   });
