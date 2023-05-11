@@ -207,8 +207,21 @@ p:last-child {
   transition: 0.3s;
 }
 
-.main-menu>ul>li>a.show>i {
+.main-menu>ul>li:hover>a>i {
   transform: rotate(180deg);
+}
+
+.main-menu>ul>li .dropdown-menu {
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0,5px);
+  transition: 0.3s;
+}
+.main-menu>ul>li:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0,0px);
 }
 
 
