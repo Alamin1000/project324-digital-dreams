@@ -312,18 +312,31 @@
     .header-in {
         padding: 25px 0;
     }
-}
 
 
-@media (max-width: 768px) {
-    .header__logo {
-        width: 90px;
-    } 
-
-    .hero__image img {
-        width: 329px;
-        margin: 0 0 20px;
+    .about__content {
+        flex-direction: column;
+        align-items: center;
     }
+    .about__content__text {
+        padding: 0;
+        margin-left: 0;
+        margin-top:30px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about__content__text .icon {
+        padding: 5px;
+        width: 70px;
+        margin: -80px -12px 0 auto;
+        background: #00001A;
+    }
+
+}
+@media (max-width: 767px) {
     .hero-content {
         text-align: center;
     }
@@ -512,6 +525,85 @@
     }
     .footer-bottom {
         padding: 15px 0 25px;
+    }
+
+
+    .about-us-section__title h2 {
+        line-height: 1;
+    }
+    .about-us-section__title h2 .mobile-sm {
+        font-size: 34px;
+        letter-spacing: 2.2px;
+        display: block;
+    }
+    .about-us-section__title h2 .mobile-big {
+        font-size: 50px;
+        display: block;
+    }
+    .h4 {
+        font-size: 20px;
+        margin: 0px 0 15px;
+    }
+    .about-us-section {
+        padding: 30px 0;
+    }
+
+
+    .about__content__text .h2-b {
+        margin: 0 0 13px;
+    }
+
+
+    .h2-b {
+        font-size: 30px;
+    }
+
+
+    .performance-content .icon {
+        width: 100px;
+        margin: 0 0 6px;
+    }
+    .performance-content p {
+        font-size: 16px;
+    }
+    .performance-section {
+        padding: 33px 0;
+    }
+
+
+    .client-section__title .bg-quote {
+        width: 120px;
+        top: -7px;
+    }
+    .client-section__title p {
+        font-size: 16px;
+    }
+    .client-section {
+        padding: 45px 0;
+    }
+    .slider-arrow-1 .owl-nav button {
+        font-size: 22px !important;
+    }
+    .client-slider {
+        padding: 0 20px;
+    }
+    .client-slide__bx {
+        padding: 17px 15px 45px 15px;
+    }
+    .client-slide__meta .image {
+        margin-top: -30px;
+        margin-bottom:8px;
+        height: 60px;
+        width: 60px;
+    }
+    .client-slide__meta h4 {
+        font-size: 16px;
+    }
+    .client-slider .owl-nav button {
+        top: calc(50% - 27px);
+    }
+    .client-section__title {
+        margin-bottom: 20px;
     }
 }
 

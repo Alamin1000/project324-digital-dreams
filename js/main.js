@@ -37,6 +37,27 @@
       '<span class="fa fa-chevron-right"></span>',
     ],
   });
+  $(".client-slider-active").owlCarousel({
+    loop: true,
+    margin: 20,
+    responsiveClass: true,
+    nav: true,
+    dots: false,
+    center: true,
+    navText: [
+      '<span class="fa fa-chevron-left"></span>',
+      '<span class="fa fa-chevron-right"></span>',
+    ],
+    responsive: {
+      0: {
+        items: 1,
+        center: false,
+      },
+      991: {
+        items: 3,
+      },
+    },
+  });
   $(".brand-active").owlCarousel({
     loop: true,
     margin: 50,
