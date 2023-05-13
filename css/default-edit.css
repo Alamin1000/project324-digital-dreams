@@ -1,9 +1,9 @@
 /* ---buttons--- */
 .default-button {
-    font-size: 28px;
-    padding: 10px 35px;
+    font-size: 17px;
+    padding: 7px 22px;
+    min-height: 52px;
     font-weight: 600;
-    min-height: 75px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -47,7 +47,7 @@
 }
 
 .default-button.min-width {
-    min-width: 359px;
+    min-width: 260px;
 }
 /* ---buttons---end */
 
