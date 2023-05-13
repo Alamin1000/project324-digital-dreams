@@ -324,6 +324,10 @@ p:last-child {
 }
 .mobile-menu li a i {
   font-size: 17px;
+  transition: 0.3s;
+}
+.mobile-menu li a:not(.collapsed) i {
+  transform: rotate(180deg);
 }
 .mobile-menu li a:hover {
   background: var(--theme__color1);
