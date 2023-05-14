@@ -36,6 +36,16 @@
     color: #fff;
 }
 
+.default-button--bordered {
+    border-color: var(--theme__color1);
+    color: #fff;
+    background: transparent;
+}
+.default-button--bordered:hover {
+    background: var(--theme__color1);
+    color: var(--theme__color2) !important;
+}
+
 .default-button--bordered--theme2 {
     border-color: var(--theme__color2);
     color: #fff;
@@ -43,7 +53,7 @@
 }
 .default-button--bordered--theme2:hover {
     background: var(--theme__color2);
-    color: var(--theme__color3);
+    color: var(--theme__color3) !important;
 }
 
 .default-button.min-width {
