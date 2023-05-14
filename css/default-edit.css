@@ -3,6 +3,7 @@
     font-size: 17px;
     padding: 7px 22px;
     min-height: 52px;
+    gap: 7px;
     font-weight: 600;
     display: inline-flex;
     align-items: center;
@@ -16,6 +17,14 @@
 .default-button:hover {
     color: var(--theme__color3);
     background: var(--theme__color2);
+}
+
+.default-button .arrow-right {
+    font-size: 14px;
+    transition: 0.3s;
+}
+.default-button:hover .arrow-right {
+    transform: translate(5px,0);
 }
 
 .default-button--theme2 {
