@@ -68,6 +68,35 @@
 .default-button.min-width {
     min-width: 260px;
 }
+
+
+/* text-button */
+.text-button {
+    font-size: 17px;
+    gap: 7px;
+    color: var(--theme__color1);
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.text-button:hover {
+    color: var(--theme__color2);
+}
+.text-button .arrow-right {
+    font-size: 14px;
+    transition: 0.3s;
+}
+.text-button:hover .arrow-right{
+    transform: translate(5px,0);
+}
+.text-button--theme2 {
+    color: var(--theme__color2);
+}
+.text-button--theme2:hover {
+    color: var(--theme__color1);
+}
 /* ---buttons---end */
 
 
