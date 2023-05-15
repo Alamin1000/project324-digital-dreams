@@ -243,6 +243,12 @@
     .e-c-c-h2 {
         font-size: 64px;
     }
+
+    .n-c-s-h2 {
+        font-size: 55px;
+        margin: 0 0 15px;
+    }
+
 }
 
 
@@ -262,6 +268,14 @@
     .c-w-d-h2 .mid {
         font-size: 35px;
         letter-spacing: 2px;
+    }
+
+
+    .contact-menu-side {
+        width: 100%;
+    }
+    .contact-form-side {
+        width: 100%;
     }
     
 }
@@ -371,6 +385,19 @@
         width: 140% !important;
         margin-left: -20%;
         margin-right: -20%;
+        display: block;
+        max-width: 600px;
+    }
+
+    .n-c-s-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .n-c-s-image img {
+        width: 160% !important;
+        margin-left: -30%;
+        margin-right: -30%;
         display: block;
         max-width: 600px;
     }
@@ -729,6 +756,107 @@
     .text-button .arrow-right {
         font-size: 11px;
     }
+
+    .b-c-c-h2 .big {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    .b-c-c-h2 .s2 {
+        font-size: 21px;
+    }
+    .b-c-c-h2 .s1 {
+        font-size: 21px;
+        margin: 15px 0 15px;
+    }
+    .b-c-c-h2 {
+        margin: 0 0 17px;
+    }
+
+    .n-c-s-h2 {
+        font-size: 40px;
+        margin: 0px 0 13px;
+    }
+
+    .m-a-s-h2 .big {
+        font-size: 30px;
+        line-height: 1;
+        margin: 0 0 12px;
+    }
+    .m-a-s-h2 .sm {
+        font-size: 20px;
+        max-width: 280px;
+        margin: 0 auto;
+        display: block;
+    }
+    .m-a-s-h2 {
+        margin: 0 0 18px;
+    }
+
+
+    .title-section .h2 {
+        font-size: 40px;
+        line-height: 1.08;
+    }
+    .title-section .h2 .slt-mbl-sm {
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+
+    .mb-fs-sereea {
+        font-size: 23px !important;
+    }
+    .mobile-uppercase {
+        text-transform: uppercase;
+    }
+    .packages-hero-title {
+        margin-bottom: 5px;
+    }
+
+
+    .contact-us-map {
+        height: 130px;
+    }
+    .contact-us-section {
+        padding: 65px 0 50px;
+    }
+    .contact-menu-side__inner {
+        padding: 40px;
+    }
+    .contact-menu h4 {
+        font-size: 32px;
+        margin: 0 0 12px;
+        text-align: center;
+    }
+    .contact-menu ul li a {
+        font-size: 15px;
+        gap: 10px;
+    }
+    .contact-menu ul {
+        gap: 15px;
+    }
+    .s-menu {
+        justify-content: center;
+    }
+    .contact-menu {
+        margin-bottom: 30px;
+    }
+    .contact-form {
+        padding: 25px 17px 40px;
+    }
+    .contact-form__title h2 {
+        font-size: 38px;
+    }
+    .contact-form__title {
+        margin: 0 0 15px;
+        text-align: center;
+    }
+    .contact-form__main {
+        --bs-gutter-x: 14px;
+    }
+
+
+
+
 }
 
 
@@ -747,5 +875,9 @@
     .hero__image img {
         width: 280px;
         margin: 0 0 15px;
+    }
+
+    .contact-menu-side__inner {
+        padding: 22px;
     }
 }

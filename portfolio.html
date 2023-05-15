@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Digital Dreams Design</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Site description will be here" />
+    <link rel="icon" href="images/fav.png" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link
+      href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" href="css/default-edit.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <!--End ALL STYLESHEET -->
+  </head>
+
+  <body>
+    <!-- preloader -->
+    <div id="preloader"></div>
+    <!-- preloader-end -->
+    <!-- main-wrap -->
+    <div class="main-wrap">
+      <!-- offcanvas-start -->
+      <div class="offcanvas-menu">
+        <div class="offmenu" id="menuParent">
+          <a href="#" class="close-offcanvas"><i class="fal fa-times"></i></a>
+          <ul class="mobile-menu">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+              <a
+                class="collapsed"
+                href="#"
+                data-bs-toggle="collapse"
+                data-bs-target="#drop-menu1"
+                >Services <i class="far fa-chevron-down"></i
+              ></a>
+              <div
+                class="dropdown-menu-custom collapse"
+                id="drop-menu1"
+                data-bs-parent="#menuParent"
+              >
+                <ul>
+                  <li><a href="development.html">Development</a></li>
+                  <li><a href="e-commerce.html">E-commerce</a></li>
+                  <li><a href="branding.html">Branding</a></li>
+                  <li><a href="nft.html">NFT</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="offcanvas-overlay"></div>
+      <!-- offcanvas-start-end -->
+
+      <!-- header-section -->
+      <header class="header-section">
+        <div class="header-in">
+          <div class="container">
+            <div class="header-section__inner">
+              <a href="index.html" class="header__logo">
+                <img src="images/logo.svg" alt="" />
+              </a>
+
+              <div class="main-menu d-lg-block d-none">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="about-us.html">About</a></li>
+                  <li class="dropdown">
+                    <a href="about-us.html" data-bs-toggle="dropdown"
+                      >Services <i class="fas fa-chevron-down"></i
+                    ></a>
+                    <div class="dropdown-menu">
+                      <ul>
+                        <li><a href="development.html">Development</a></li>
+                        <li><a href="e-commerce.html">E-commerce</a></li>
+                        <li><a href="branding.html">Branding</a></li>
+                        <li><a href="nft.html">NFT</a></li>
+                        <li>
+                          <a href="mobile-application.html"
+                            >Mobile Application</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a class="active" href="portfolio.html">Portfolio</a></li>
+                  <li><a href="packages.html">Packages</a></li>
+                  <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+              </div>
+
+              <a href="#" class="offcanvas-open d-lg-none">
+                <i class="far fa-bars"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--End header-section -->
+
+      <!-- main -->
+      <main>
+        <!-- title-section -->
+        <section class="title-section pb-0">
+          <div class="container">
+            <div class="title-section__inner">
+              <div class="title-section__title cont-blk cont-blk--center">
+                <h2 class="h2 mb-1">
+                  <span class="slt-mbl-sm">See Our</span>
+                  <br class="d-md-none" />
+                  Work
+                </h2>
+                <div class="hd-line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="title-section__image px-3 pb-1">
+            <img src="images/portfolio-hero.png" alt="" class="img-fluid" />
+          </div>
+        </section>
+        <!-- title-section-end -->
+
+        <!-- portfolio-section -->
+        <section class="portfolio-section">
+          <div class="container">
+            <div class="portfolio-section__inner">
+              <div
+                class="portfolio-section__title mb-4 cont-blk cont-blk--center"
+              >
+                <h2 class="h2-b mb-3 text-uppercase color-theme2">
+                  Have a look at <br class="d-md-none" />
+                  our portfolio!
+                </h2>
+                <p>
+                  Our work involves staying up-to-date with the latest trends
+                  and technologies, and continuously testing and
+                  <br class="d-lg-block d-none" />
+                  optimizing strategies to achieve the best results for our
+                  clients or the company we work for.
+                </p>
+                <div class="tab-nav tab-nav--isotope mt-3">
+                  <ul class="nav portfolio-filter-ul" id="portfolio-filter-ul">
+                    <li data-filter=".portfolio-website" class="active">
+                      Website
+                    </li>
+                    <li data-filter=".portfolio-ecommerce">Ecommerce</li>
+                    <li data-filter=".portfolio-nft">NFT</li>
+                    <li data-filter=".portfolio-logo">Logo</li>
+                    <li data-filter=".portfolio-social-media">Social Media</li>
+                    <li data-filter=".portfolio-mobile-applications">Apps</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="portfolio-items">
+                <!-- portfolio-website-items -->
+                <div class="portfolio-item portfolio-website">
+                  <img
+                    src="images/portfolio-website-1.png"
+                    alt=""
+                    class="img"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-website">
+                  <img
+                    src="images/portfolio-website-2.png"
+                    alt=""
+                    class="img"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-website">
+                  <img
+                    src="images/portfolio-website-3.png"
+                    alt=""
+                    class="img"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-website">
+                  <img
+                    src="images/portfolio-website-4.png"
+                    alt=""
+                    class="img"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-website">
+                  <img
+                    src="images/portfolio-website-5.png"
+                    alt=""
+                    class="img"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-website">
+                  <img
+                    src="images/portfolio-website-6.png"
+                    alt=""
+                    class="img"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-website">
+                  <img
+                    src="images/portfolio-website-7.png"
+                    alt=""
+                    class="img"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-website">
+                  <img
+                    src="images/portfolio-website-8.png"
+                    alt=""
+                    class="img"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-website">
+                  <img
+                    src="images/portfolio-website-9.png"
+                    alt=""
+                    class="img"
+                  />
+                </div>
+
+                <!-- portfolio-ecommerce-items -->
+                <div class="portfolio-item portfolio-ecommerce">
+                  <img
+                    src="images/portfolio-website-9.png"
+                    alt=""
+                    class="img"
+                  />
+                </div>
+
+                <!-- portfolio-nft-items -->
+                <!-- (.portfolio-item.portfolio-nft>(img[src="images/portfolio-nft-$.png"][alt="portfolio-nft-$.png"]))*6 -->
+                <div class="portfolio-item portfolio-nft">
+                  <img
+                    src="images/portfolio-nft-1.png"
+                    alt="portfolio-nft-1.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-nft">
+                  <img
+                    src="images/portfolio-nft-2.png"
+                    alt="portfolio-nft-2.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-nft">
+                  <img
+                    src="images/portfolio-nft-3.png"
+                    alt="portfolio-nft-3.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-nft">
+                  <img
+                    src="images/portfolio-nft-4.png"
+                    alt="portfolio-nft-4.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-nft">
+                  <img
+                    src="images/portfolio-nft-5.png"
+                    alt="portfolio-nft-5.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-nft">
+                  <img
+                    src="images/portfolio-nft-6.png"
+                    alt="portfolio-nft-6.png"
+                  />
+                </div>
+
+                <!-- portfolio-logo-items -->
+                <div class="portfolio-item portfolio-logo">
+                  <img
+                    src="images/portfolio-logo-1.png"
+                    alt="portfolio-logo-1.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-logo">
+                  <img
+                    src="images/portfolio-logo-2.png"
+                    alt="portfolio-logo-2.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-logo">
+                  <img
+                    src="images/portfolio-logo-3.png"
+                    alt="portfolio-logo-3.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-logo">
+                  <img
+                    src="images/portfolio-logo-4.png"
+                    alt="portfolio-logo-4.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-logo">
+                  <img
+                    src="images/portfolio-logo-5.png"
+                    alt="portfolio-logo-5.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-logo">
+                  <img
+                    src="images/portfolio-logo-6.png"
+                    alt="portfolio-logo-6.png"
+                  />
+                </div>
+
+                <!-- portfolio-social-media-items -->
+                <div class="portfolio-item portfolio-social-media">
+                  <img
+                    src="images/portfolio-social-media-1.png"
+                    alt="portfolio-social-media-1.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-social-media">
+                  <img
+                    src="images/portfolio-social-media-2.png"
+                    alt="portfolio-social-media-2.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-social-media">
+                  <img
+                    src="images/portfolio-social-media-3.png"
+                    alt="portfolio-social-media-3.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-social-media">
+                  <img
+                    src="images/portfolio-social-media-4.png"
+                    alt="portfolio-social-media-4.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-social-media">
+                  <img
+                    src="images/portfolio-social-media-5.png"
+                    alt="portfolio-social-media-5.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-social-media">
+                  <img
+                    src="images/portfolio-social-media-6.png"
+                    alt="portfolio-social-media-6.png"
+                  />
+                </div>
+
+                <!-- portfolio-apps-items -->
+                <div class="portfolio-item portfolio-mobile-applications">
+                  <img
+                    src="images/portfolio-mobile-application-1.png"
+                    alt="portfolio-mobile-applications-1.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-mobile-applications">
+                  <img
+                    src="images/portfolio-mobile-application-2.png"
+                    alt="portfolio-mobile-applications-2.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-mobile-applications">
+                  <img
+                    src="images/portfolio-mobile-application-3.png"
+                    alt="portfolio-mobile-applications-3.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-mobile-applications">
+                  <img
+                    src="images/portfolio-mobile-application-4.png"
+                    alt="portfolio-mobile-applications-4.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-mobile-applications">
+                  <img
+                    src="images/portfolio-mobile-application-5.png"
+                    alt="portfolio-mobile-applications-5.png"
+                  />
+                </div>
+                <div class="portfolio-item portfolio-mobile-applications">
+                  <img
+                    src="images/portfolio-mobile-application-6.png"
+                    alt="portfolio-mobile-applications-6.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- portfolio-section-end -->
+
+        <!-- client-section -->
+        <section class="client-section">
+          <div class="container">
+            <div class="client-section__inner">
+              <div
+                class="client-section__title sec-title cont-blk cont-blk--center"
+              >
+                <img
+                  src="images/client-title-quote.svg"
+                  alt=""
+                  class="bg-quote"
+                />
+                <h4 class="h4 text-uppercase mb-1">Have a look at</h4>
+                <h2 class="h2-b color-theme2">what clients’ say about us</h2>
+                <p>
+                  <i
+                    >These happy clients can’t be wrong about us!
+                    <br class="d-lg-block d-none" />
+                    Look at results before you decide to work with us</i
+                  >
+                </p>
+              </div>
+
+              <div
+                class="client-slider client-slider-active slider-arrow--center slider-arrow-1 owl-carousel"
+              >
+                <div class="client-slide">
+                  <div class="client-slide__bx">
+                    <p>
+                      "I recently worked with Digital Dreamers to design my new
+                      website, and I couldn't be happier with the results. The
+                      team was incredibly professional, responsive, and creative
+                      throughout the entire process.
+                    </p>
+                  </div>
+                  <div class="client-slide__meta">
+                    <div class="image">
+                      <img src="images/client.png" alt="" />
+                    </div>
+                    <h4 class="mb-0">David R. Morgan</h4>
+                  </div>
+                </div>
+                <div class="client-slide">
+                  <div class="client-slide__bx">
+                    <p>
+                      "The website design looks great! The layout is
+                      user-friendly and easy to navigate. The color scheme is
+                      appealing and the images are high-quality. Overall, a very
+                      professional and polished look."
+                    </p>
+                  </div>
+                  <div class="client-slide__meta">
+                    <div class="image">
+                      <img src="images/client-2.png" alt="" />
+                    </div>
+                    <h4 class="mb-0">Amanda Smith</h4>
+                  </div>
+                </div>
+                <div class="client-slide">
+                  <div class="client-slide__bx">
+                    <p>
+                      "The website design is fantastic! It's sleek, modern, and
+                      user-friendly. I would highly recommend this website to
+                      anyone looking for a seamless online experience."
+                    </p>
+                  </div>
+                  <div class="client-slide__meta">
+                    <div class="image">
+                      <img src="images/client-3.png" alt="" />
+                    </div>
+                    <h4 class="mb-0">Paul Green</h4>
+                  </div>
+                </div>
+                <div class="client-slide">
+                  <div class="client-slide__bx">
+                    <p>
+                      "I recently worked with Digital Dreamers to design my new
+                      website, and I couldn't be happier with the results. The
+                      team was incredibly professional, responsive, and creative
+                      throughout the entire process.
+                    </p>
+                  </div>
+                  <div class="client-slide__meta">
+                    <div class="image">
+                      <img src="images/client.png" alt="" />
+                    </div>
+                    <h4 class="mb-0">David R. Morgan</h4>
+                  </div>
+                </div>
+                <div class="client-slide">
+                  <div class="client-slide__bx">
+                    <p>
+                      "The website design looks great! The layout is
+                      user-friendly and easy to navigate. The color scheme is
+                      appealing and the images are high-quality. Overall, a very
+                      professional and polished look."
+                    </p>
+                  </div>
+                  <div class="client-slide__meta">
+                    <div class="image">
+                      <img src="images/client-2.png" alt="" />
+                    </div>
+                    <h4 class="mb-0">Amanda Smith</h4>
+                  </div>
+                </div>
+                <div class="client-slide">
+                  <div class="client-slide__bx">
+                    <p>
+                      "The website design is fantastic! It's sleek, modern, and
+                      user-friendly. I would highly recommend this website to
+                      anyone looking for a seamless online experience."
+                    </p>
+                  </div>
+                  <div class="client-slide__meta">
+                    <div class="image">
+                      <img src="images/client-3.png" alt="" />
+                    </div>
+                    <h4 class="mb-0">Paul Green</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- client-section-end -->
+
+        <!-- start-section -->
+        <section class="start-section">
+          <div class="container">
+            <div class="start-section__inner">
+              <div class="row">
+                <div class="col-xxl-9 col-xl-10 mx-auto">
+                  <div class="start__row row">
+                    <div class="col-lg-8">
+                      <div class="start__content cont-blk">
+                        <h2 class="h2 fw-500 mb-2">Start a Project Now</h2>
+                        <h2 class="h2-b color-theme2">Let’s get in Touch!</h2>
+                        <p>
+                          Let's launch your business to new heights
+                          <br class="d-lg-block d-none" />
+                          with a strategic digital marketing plan.
+                          <br class="d-lg-block d-none" />
+                          Contact us today to get started!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 order-lg-0 order-first">
+                      <div class="start__image">
+                        <img src="images/start-illustration.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- start-section-end -->
+
+        <!-- project-section -->
+        <section class="project-section bg-transparent pt-1">
+          <div class="container">
+            <div class="project-section__inner">
+              <div class="row">
+                <div class="col-xxl-9 col-xl-10 mx-auto">
+                  <div class="project-form">
+                    <form action="#">
+                      <div class="project-form__main row">
+                        <div class="col-md-6">
+                          <div class="single-input-x">
+                            <div class="input-x-outer">
+                              <input
+                                type="text"
+                                class="input-x"
+                                placeholder="First Name"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="single-input-x">
+                            <div class="input-x-outer">
+                              <input
+                                type="text"
+                                class="input-x"
+                                placeholder="Last Name"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="single-input-x">
+                            <div class="input-x-outer">
+                              <input
+                                type="text"
+                                class="input-x"
+                                placeholder="Email"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="single-input-x">
+                            <div class="input-x-outer">
+                              <input
+                                type="text"
+                                class="input-x"
+                                placeholder="Business Name"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="single-input-x">
+                            <div class="input-x-outer">
+                              <input
+                                type="text"
+                                class="input-x"
+                                placeholder="Website URL"
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-12">
+                          <div class="single-input-x">
+                            <div class="input-x-outer">
+                              <select class="input-x nice-select">
+                                <option value="#">Website Designing</option>
+                                <option value="#">Website Development</option>
+                                <option value="#">Website Hosting</option>
+                                <option value="#">Website Marketing</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-12">
+                          <div class="single-input-x">
+                            <div class="input-x-outer">
+                              <textarea
+                                class="input-x big"
+                                placeholder="About your project"
+                              ></textarea>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="single-input-x">
+                            <div class="input-x-outer">
+                              <input
+                                type="submit"
+                                class="input-x input-x-submit input-x-submit--theme-1"
+                                value="Start a Project"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- project-section-end -->
+      </main>
+      <!-- main end -->
+
+      <!-- footer-section -->
+      <footer class="footer-section">
+        <div class="container">
+          <div class="footer-section__inner">
+            <div class="footer__top row gy-5">
+              <div class="col-lg-2">
+                <a href="#" class="footer-logo">
+                  <img src="images/logo-white.svg" alt="" />
+                </a>
+              </div>
+              <div class="col-lg-10">
+                <div class="row gy-5">
+                  <div class="col-lg-3 col-md-6">
+                    <div class="footer-menu">
+                      <h4>Services</h4>
+                      <ul>
+                        <li><a href="#">Website Designing</a></li>
+                        <li><a href="#">Logo Designing</a></li>
+                        <li><a href="#">NFT Creation</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="footer-menu">
+                      <h4>More</h4>
+                      <ul>
+                        <li><a href="#">Ecommerce Creation</a></li>
+                        <li><a href="#">Social Media Marketing</a></li>
+                        <li><a href="#">Email Marketing</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="footer-menu">
+                      <h4>Contact</h4>
+                      <ul>
+                        <li><a href="#">612, St 26 Chicago USA.</a></li>
+                        <li>
+                          <a href="mailto:info@digitaldreamshq.com"
+                            >info@digitaldreamshq.com</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="footer-menu">
+                      <h4>Follow Us</h4>
+                      <ul class="fs-menu">
+                        <li>
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <div class="fb-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Condition</a>
+              </div>
+              <p class="copyright">&copy; 2023 Digital Dreams Design</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--End footer-section -->
+    </div>
+    <!-- main-wrap -->
+
+    <!-- js -->
+    <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- End All Js -->
+  </body>
+</html>
