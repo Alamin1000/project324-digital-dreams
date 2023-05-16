@@ -1188,12 +1188,14 @@ font-size: 22px;
   margin-bottom: 13px;
   height: 70px;
   width: 70px;
+  border-radius: 50%;
 }
 .client-slide__meta .image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
+  border-radius: 50%;
 }
 .client-slide__meta h4 {
   font-size: 24px;

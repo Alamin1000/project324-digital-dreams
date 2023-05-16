@@ -339,9 +339,11 @@
     font-weight: inherit;
 }
 .nice-select .list {
-    border-radius: 2px;
-    min-width: 100%;
-    background: #00001A;
+	border-radius: 2px;
+	min-width: calc(100% + 2px);
+	background: #00001A;
+	left: -1px;
+	margin-top: 1px;
 }
 
 @media (max-width: 767px) {
