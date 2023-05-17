@@ -94,23 +94,23 @@ $(document).ready(function () {
   // nice-select
   $(".nice-select").niceSelect();
 
+  // isotope
+  var $grid = $(".portfolio-items").isotope({
+    filter: ".portfolio-website",
+  });
+  // filter items on button click
+  $(".portfolio-filter-ul").on("click", "li", function () {
+    var filterValue = $(this).attr("data-filter");
+    $grid.isotope({ filter: filterValue });
+  });
+
+  $(".portfolio-filter-ul").click(function () {
+    let thisIs = this;
+    $(".portfolio-filter-ul li").removeClass("active");
+  });
+
   // preloader
   $("#preloader").fadeOut(500);
-});
-
-// isotope
-var $grid = $(".portfolio-items").isotope({
-  filter: ".portfolio-website",
-});
-// filter items on button click
-$(".portfolio-filter-ul").on("click", "li", function () {
-  var filterValue = $(this).attr("data-filter");
-  $grid.isotope({ filter: filterValue });
-});
-
-$(".portfolio-filter-ul").click(function () {
-  let thisIs = this;
-  $(".portfolio-filter-ul li").removeClass("active");
 });
 
 // Get the container element

@@ -652,6 +652,9 @@ p:last-child {
 .package-card .card__head h3 .big {
   font-size: 60px;
 }
+.package-card .card__head h3 .big-lng {
+  /* font-size: 50px; */
+}
 
 .package-card .card__head h3 .sm {
   font-size: 16px;
