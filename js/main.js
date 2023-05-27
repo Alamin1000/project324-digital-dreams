@@ -87,9 +87,9 @@
   $(".card__body__top").mCustomScrollbar({
     axis: "yx",
     scrollButtons: { enable: true },
-    mouseWheel: { scrollAmount: 50, normalizeDelta: true },
+    mouseWheel: { scrollAmount: 70, normalizeDelta: true },
     theme: "3d",
-    scrollInertia: 250,
+    scrollInertia: 400,
     scrollbarPosition: "outside",
   });
 })(jQuery);
