@@ -169,7 +169,7 @@ p:last-child {
   position: relative;
 }
 
-.main-menu>ul>li>a:hover {
+.main-menu>ul>li:hover>a {
   color: var(--theme__color1);
 }
 
@@ -184,16 +184,17 @@ p:last-child {
   display: block;
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 0);
-  opacity: 0;
-
+  transform: translate(-50%, 0) scaleX(0);
   width: 27px;
   height: 2px;
   bottom: -4px;
+  transition: 0.3s;
 }
 
+.main-menu>ul>li:hover>a::after,
 .main-menu>ul>li>a.active::after {
   opacity: 1;
+  transform: translate(-50%, 0) scaleX(1);
 }
 
 .main-menu>ul>li>a>i {
@@ -211,13 +212,15 @@ p:last-child {
   display: block;
   opacity: 0;
   visibility: hidden;
-  transform: translate(0,5px);
+  transform: translate(0,20px);
   transition: 0.3s;
+  padding: 10px;
+  border-radius: 6px;
 }
 .main-menu>ul>li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
-  transform: translate(0,0px);
+  transform: translate(0,15px);
 }
 
 
@@ -237,6 +240,7 @@ p:last-child {
   padding: 10px 20px;
   display: block;
   transition: 0.3s;
+  border-radius: 5px;
 }
 
 .dropdown-menu ul li a:hover {
@@ -1149,6 +1153,9 @@ font-size: 22px;
 .client-slider .owl-stage {
   display: flex;
 }
+.client-slider .owl-stage-outer {
+  padding: 0 2px;
+}
 .client-slider .owl-item {
   display: flex;
   flex-direction: column;
@@ -1448,6 +1455,7 @@ font-size: 22px;
 
 }
 .contact-menu ul li a .icon {
+  font-size: 15px;
   width: 30px;
   height: 30px;
   background: #fff;
