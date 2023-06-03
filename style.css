@@ -1498,3 +1498,57 @@ font-size: 22px;
   --bs-gutter-y: var(--bs-gutter-x);
 }
 /* ---contact-us-section---end */
+
+
+/* ---contact-popup--- */
+.contact-popup_outer {
+
+}
+.contact-popup_outer .modal-dialog {
+  max-width: 1000px;
+}
+
+.contact-popup {
+  background:  url('images/contact-pupup-bg.png') no-repeat center center/cover, #1E004C;
+
+}
+.contact-popup__title-side {
+
+}
+.contact-popup__title-side .in-logo {
+
+}
+.contact-popup__title-side h2 {
+
+}
+.contact-pop-form {
+
+}
+.cpf-tags {
+
+}
+.cpf-tags .a {
+
+}
+.cpf-tags .a:hover {
+
+}
+.single-input-y {
+
+}
+.input-y-outer {
+
+}
+.attachment-y {
+
+}
+.attachment-y img {
+
+}
+.attachment-y .txt {
+
+}
+.pop-submit {
+
+}
+/* ---contact-popup---end */
