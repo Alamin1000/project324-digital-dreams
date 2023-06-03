@@ -91,7 +91,7 @@
         bottom: -5px;
     }
     .portfolio-item {
-        padding: 6px;
+        /* padding: 6px; */
     }
 
     .services-section {
@@ -511,6 +511,8 @@
     }
     .portfolio-item {
         width: 100%;
+        padding-top: 66.4%;
+        margin: 10px 0;
     }
     .sec-title {
         margin-bottom: 35px;
