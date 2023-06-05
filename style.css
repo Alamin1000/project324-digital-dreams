@@ -1552,7 +1552,24 @@ font-size: 22px;
   padding: 12px 16px;
   font-weight: 600;
   display: block;
+  /* border: 2px solid #fff; */
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+.cpf-tags .a .bdr {
   border: 2px solid #fff;
+  position: absolute;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transition: 0.3s;
+}
+.cpf-tags .a .input:checked ~ .bdr {
+  background: var(--theme__color1);
+  border-color: transparent;
 }
 .cpf-tags .a:hover {
 

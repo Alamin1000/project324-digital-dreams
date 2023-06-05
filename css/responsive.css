@@ -273,6 +273,9 @@
     .cpf-tags .a {
         font-size: 13px;
         padding: 9px 12px;
+        /* border-width: 1px; */
+    }
+    .cpf-tags .a .bdr {
         border-width: 1px;
     }
     .cpf-tags {
