@@ -1598,6 +1598,7 @@ font-size: 22px;
   font-weight: 600;
   width: 100%;
   display: flex;
+  cursor: pointer;
 }
 .attachment-y img {
   width: 22px;
