@@ -220,6 +220,8 @@
                       through our artistic and strategic design approach.
                     </p>
                     <a
+                      data-bs-toggle="modal"
+                      data-bs-target="#contact-form-popup"
                       href="#"
                       class="text-button text-button--theme2 bottom-text-button"
                     >
@@ -257,6 +259,8 @@
                       Partner with us to unlock your brand's full potential.
                     </p>
                     <a
+                      data-bs-toggle="modal"
+                      data-bs-target="#contact-form-popup"
                       href="#"
                       class="text-button text-button--theme2 bottom-text-button"
                     >
@@ -284,6 +288,8 @@
                       important for the interaction.
                     </p>
                     <a
+                      data-bs-toggle="modal"
+                      data-bs-target="#contact-form-popup"
                       href="#"
                       class="text-button text-button--theme2 bottom-text-button"
                     >
@@ -506,16 +512,30 @@
                       <h4>Follow Us</h4>
                       <ul class="fs-menu">
                         <li>
-                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a
+                            target="_blank"
+                            href="https://www.facebook.com/profile.php?id=100092191773655"
+                            ><i class="fab fa-facebook-f"></i
+                          ></a>
                         </li>
                         <li>
-                          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                          <a target="_blank" href="#"
+                            ><i class="fab fa-linkedin-in"></i
+                          ></a>
                         </li>
                         <li>
-                          <a href="#"><i class="fab fa-instagram"></i></a>
+                          <a
+                            target="_blank"
+                            href="https://www.instagram.com/digitaldreamsdesignhq"
+                            ><i class="fab fa-instagram"></i
+                          ></a>
                         </li>
                         <li>
-                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/DigitalDreamshq"
+                            ><i class="fab fa-twitter"></i
+                          ></a>
                         </li>
                       </ul>
                     </div>
@@ -534,6 +554,122 @@
         </div>
       </footer>
       <!--End footer-section -->
+
+      <!-- Modal -->
+      <div
+        class="modal fade contact-popup_outer"
+        id="contact-form-popup"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content border-0 bg-transparent">
+            <div class="contact-popup">
+              <a href="#" class="modal-close d-none" data-bs-dismiss="modal">
+                <i class="fal fa-times"></i>
+              </a>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="contact-popup-title-side">
+                    <img
+                      src="images/logo-popup.svg"
+                      alt="logo"
+                      class="in-logo"
+                    />
+                    <h2>Have a project? We would love to help!</h2>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="contact-pop-form">
+                    <div class="cpf-tags">
+                      <label class="a" href="#">
+                        <input
+                          type="radio"
+                          name="category"
+                          class="d-none input"
+                          checked
+                        />
+                        <div class="bdr"></div>
+                        Web Design
+                      </label>
+                      <label class="a" href="#">
+                        <input
+                          type="radio"
+                          name="category"
+                          class="d-none input"
+                        />
+                        <div class="bdr"></div>
+                        Marketing
+                      </label>
+                      <label class="a" href="#">
+                        <input
+                          type="radio"
+                          name="category"
+                          class="d-none input"
+                        />
+                        <div class="bdr"></div>
+                        NFT
+                      </label>
+                      <label class="a" href="#">
+                        <input
+                          type="radio"
+                          name="category"
+                          class="d-none input"
+                        />
+                        <div class="bdr"></div>
+                        Ecommerce
+                      </label>
+                      <label class="a" href="#">
+                        <input
+                          type="radio"
+                          name="category"
+                          class="d-none input"
+                        />
+                        <div class="bdr"></div>
+                        Logo Design
+                      </label>
+                    </div>
+                    <div class="single-input-y">
+                      <div class="input-y-outer">
+                        <input
+                          type="text"
+                          class="input-y"
+                          placeholder="Enter your Name"
+                        />
+                      </div>
+                    </div>
+                    <div class="single-input-y">
+                      <div class="input-y-outer">
+                        <input
+                          type="text"
+                          class="input-y"
+                          placeholder="Enter your Email"
+                        />
+                      </div>
+                    </div>
+                    <div class="single-input-y">
+                      <div class="input-y-outer">
+                        <input
+                          type="text"
+                          class="input-y"
+                          placeholder="Tell us about your project"
+                        />
+                      </div>
+                    </div>
+                    <label class="attachment-y">
+                      <input type="file" class="d-none" />
+                      <img src="images/attach-clip-icon.svg" alt="" />
+                      <span class="txt">Add attachment</span>
+                    </label>
+                    <a href="#" class="pop-submit">Order Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- main-wrap -->
 
