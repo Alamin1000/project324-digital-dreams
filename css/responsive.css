@@ -214,6 +214,9 @@
     .footer-menu ul li a {
         font-size: 13px;
     }
+    .footer-menu ul li a.sm {
+        font-size: 12px;
+    }
     .footer-menu ul {
         gap: 10px;
     }

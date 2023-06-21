@@ -993,6 +993,9 @@ font-size: 22px;
   font-weight: 400;
   transition: 0.3s;
 }
+.footer-menu ul li a.sm {
+  font-size: 15px;
+}
 .footer-menu ul li a:hover {
   color: var(--theme__color2);
 }
